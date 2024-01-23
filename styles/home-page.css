@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: wheat;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   
+}
+.heading{
+    padding-top:50px;
+    text-align: center;
+    font-family:"Meie Script";
+    font-size: 100px;
+    padding-bottom: 20px;
+}
+
+.form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form label{
+    font-size: 30px;
+}
+
+
+.login{
+    margin-top: 5px;
+    margin-bottom:10px;
+    height:45px;
+    width:auto;
+    padding-left : 10px;
+    border:none;
+    font-style: italic;
+    background-color: white;
+    border-radius: 45%;
+    border-left: 5px solid black;
+    cursor: pointer;
+
+}
+.login:hover{
+    background-color: whitesmoke;
+}
+.login:active{
+    opacity: 0.7;
+}
